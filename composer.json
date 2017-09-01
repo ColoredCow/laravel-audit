@@ -1,0 +1,35 @@
+{
+	"name": "coloredcow/laravel-audit",
+	"description": "Audit Logs for Laravel",
+	"type": "",
+	"version": "1.0.1",
+	"keywords":["laravel","audit","logs"],
+	"homepage": "https://github.com/coloredcow/laravel-audit",
+	"license":"GPL-3.0+",
+	"repositories":[
+		{
+			"type": "git",
+			"url": "https://github.com/coloredcow/laravel-audit.git"
+		}
+	],
+	"authors":[
+		{
+			"name": "Nishanth KD",
+			"email": "kd@coloredcow.com",
+			"homepage": "http://coloredcow.com"
+		}
+	],
+	"stability": "dev",
+	"require":{
+		"php": "^7.0",
+		"illuminate/support": "^5.4",
+		"illuminate/database": "^5.4",
+		"illuminate/queue": "^5.4",
+
+	},
+	"autoload":{
+		"psr-4":{
+			"ColoredCow\\LaravelAudit\\":"src/"
+		}
+	} 
+}

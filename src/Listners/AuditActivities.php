@@ -2,8 +2,7 @@
 
 namespace ColoredCow\LaravelAudit\Listners;
 
-use App\Events\UpdateFacilityCoordinates;
-use App\Models\ApplicationActivityAudit;
+use ColoredCow\LaravelAudit\Models\ApplicationActivityAudit;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 
