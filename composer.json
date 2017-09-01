@@ -24,7 +24,7 @@
 		"php": "^7.0",
 		"illuminate/support": "^5.4",
 		"illuminate/database": "^5.4",
-		"illuminate/queue": "^5.4",
+		"illuminate/queue": "^5.4"
 
 	},
 	"autoload":{
