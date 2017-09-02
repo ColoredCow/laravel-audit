@@ -8,8 +8,16 @@ A package to capture system activity in a Laravel application. Currently support
 ## Installation
 
 1. Run `composer require coloredcow/laravel-audit`
-2. Run `vendor:publish`
-2. Run `php artisan migrate`
+2. Add the `ColoredCow\LaravelAudit\AuditServiceProvider` to `config/app.php`
+
+```
+'providers' => [
+    ColoredCow\LaravelAudit\AuditServiceProvider::class
+];
+```
+
+3. Run `vendor:publish`
+4. Run `php artisan migrate`
 
 
 ## Usage
