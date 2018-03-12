@@ -1,6 +1,6 @@
-# Auditing Logs for Laravel
+# Audit Logs for Laravel
 
-A package to capture system activity in a Laravel application. Currently supports the following fields :
+A package to capture system activity in a Laravel application. Currently supports the following fields:
 - IP of HTTP request, 
 - HTTP referer, 
 - a description of the action you want to audit.
