@@ -1,6 +1,6 @@
 <?php
 
-namespace ColoredCow\LaravelAudit\Listners;
+namespace ColoredCow\LaravelAudit\Listeners;
 
 use ColoredCow\LaravelAudit\Models\ApplicationActivityAudit;
 use Illuminate\Contracts\Queue\ShouldQueue;
