@@ -12,7 +12,7 @@ trait Auditable
         $this->audit['action'] = $attr['action'] ?? null ;
         $this->audit['ip'] = $attr['ip'] ?? null ;
         $this->audit['referer'] = $attr['referer'] ?? null ;
-        $this->audit['user_id'] = $attr['user_id'] ?? null ;
+        $this->audit['user_id'] = $attr['user_id'] ?? \Auth::id() ;
         $this->audit['description'] = $attr['description'] ?? null ;
     }
 
