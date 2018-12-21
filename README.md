@@ -4,6 +4,8 @@ A package to capture system activity in a Laravel application. Currently support
 - IP of HTTP request,
 - HTTP referer,
 - a description of the action you want to audit.
+- user id
+- Other details like data and keys
 
 ## Installation
 
