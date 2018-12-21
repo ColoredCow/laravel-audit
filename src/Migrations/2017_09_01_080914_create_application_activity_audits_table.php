@@ -15,9 +15,11 @@ class CreateApplicationActivityAuditsTable extends Migration
     {
         Schema::create('application_activity_audits', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('user_id')->nullable();
             $table->string('ip')->nullable();
             $table->string('action')->nullable();
             $table->string('referer')->nullable();
+            $table->string('description')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });

@@ -28,3 +28,7 @@ $this->setAudit([
 ]);
 ```
 2. Use the `ColoredCow\LaravelAudit\Listeners\AuditActivities` listener to listen to the events to want to audit. Map it in the EventServiceProvider of your laravel application.
+
+## Audit Facade
+
+1. Use AuditFacade to make a audit directly from the applications.
