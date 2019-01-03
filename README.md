@@ -33,7 +33,7 @@ $this->setAudit([
 
 ## Audit Facade
 
-1. Use AuditFacade to make a audit directly from the applications.
+1. Add AuditFacade in your app to make a audit directly from the applications.
 
 ```
 Audit::setAudit([
