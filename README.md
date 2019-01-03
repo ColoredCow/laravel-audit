@@ -34,3 +34,12 @@ $this->setAudit([
 ## Audit Facade
 
 1. Use AuditFacade to make a audit directly from the applications.
+
+```
+Audit::setAudit([
+    'ip' => 'ip-of-user-here',
+    'referer' => 'referer-address',
+    'action' => 'description of event and action being audited'
+]);
+```
+
