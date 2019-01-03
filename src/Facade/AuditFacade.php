@@ -1,4 +1,5 @@
 <?php
+namespace ColoredCow\LaravelAudit\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

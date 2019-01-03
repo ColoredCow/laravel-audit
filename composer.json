@@ -28,5 +28,17 @@
 		"psr-4":{
 			"ColoredCow\\LaravelAudit\\":"src/"
 		}
-	} 
+	},
+
+	"extra": {
+        "laravel": {
+            "providers": [
+                "ColoredCow\\LaravelAudit\\AuditServiceProvider"
+            ],
+            "aliases": {
+                "AuditFacade": "ColoredCow\\LaravelGSuite\\Facades\\GSuiteUserService"
+            }
+        }
+    }
+
 }
