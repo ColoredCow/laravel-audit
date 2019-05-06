@@ -2,7 +2,7 @@
 	"name": "coloredcow/laravel-audit",
 	"description": "Audit Logs for Laravel",
 	"type": "",
-	"version": "1.2",
+	"version": "2.0.1",
 	"keywords":["laravel","audit","logs"],
 	"homepage": "https://github.com/coloredcow/laravel-audit",
 	"license":"GPL-3.0+",
