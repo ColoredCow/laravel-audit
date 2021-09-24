@@ -16,7 +16,7 @@ class AuditService
             'action' => 'No Action defined',
             'ip' => request()->ip(),
             'referer' => request()->headers->get('referer'),
-            'user_id' => \Auth::id(),
+            'user_id' => Auth::id(),
             'description' => null,
         ];
 
@@ -26,6 +26,7 @@ class AuditService
         $audit['referer'] = $attr['referer'] ?? null;
         $audit['user_id'] = $attr['user_id'] ?? Auth::id();
         $audit['description'] = $attr['description'] ?? null;
+
         ApplicationActivityAudit::create($audit);
     }
 }
