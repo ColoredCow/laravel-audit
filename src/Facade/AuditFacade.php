@@ -1,4 +1,5 @@
 <?php
+
 namespace ColoredCow\LaravelAudit\Facade;
 
 use Illuminate\Support\Facades\Facade;
@@ -10,5 +11,8 @@ class AuditFacade extends Facade
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'audit'; }
+    protected static function getFacadeAccessor()
+    {
+        return 'audit';
+    }
 }

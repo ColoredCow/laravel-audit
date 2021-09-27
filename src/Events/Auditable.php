@@ -3,11 +3,10 @@
 namespace ColoredCow\LaravelAudit\Events;
 
 trait Auditable
-{ 
+{
+    protected $audit = [];
 
-	protected $audit = [];
-
-	public function setAudit($attr)
+    public function setAudit($attr)
     {
         $this->audit['action'] = $attr['action'] ?? null ;
         $this->audit['ip'] = $attr['ip'] ?? null ;
@@ -18,7 +17,6 @@ trait Auditable
 
     public function getAudit()
     {
-    	return $this->audit;
+        return $this->audit;
     }
-
 }
