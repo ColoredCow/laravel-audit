@@ -1,7 +1,7 @@
 {
 	"name": "coloredcow/laravel-audit",
 	"description": "Audit logging for Laravel",
-	"version": "4.0.0",
+	"version": "5.0.0",
 	"keywords": [
 		"coloredcow",
 		"laravel",
