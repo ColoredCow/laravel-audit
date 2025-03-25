@@ -3,8 +3,6 @@
 namespace ColoredCow\LaravelAudit\Listeners;
 
 use ColoredCow\LaravelAudit\Models\ApplicationActivityAudit;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Queue\InteractsWithQueue;
 
 class AuditActivities
 {

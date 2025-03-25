@@ -3,7 +3,6 @@
 namespace ColoredCow\LaravelAudit;
 
 use Illuminate\Support\ServiceProvider;
-use ColoredCow\LaravelAudit\AuditService;
 
 class AuditServiceProvider extends ServiceProvider
 {
@@ -15,9 +14,9 @@ class AuditServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->app->bind('audit', function ($app) {
-            return new AuditService;
+            return new AuditService();
         });
-	    $this->loadMigrationsFrom(__DIR__.'/Migrations');
+        $this->loadMigrationsFrom(__DIR__.'/Migrations');
     }
 
     /**
